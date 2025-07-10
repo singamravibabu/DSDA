@@ -62,4 +62,15 @@ for item in list:
 
 ### Mutable and Immutable 
 > **Immutable types:** str, int, bool, float, tuple
+
 > **Mutable types:** list, dict, set
+
+> When we pass an immutable object to a function, the function can use the argument name to create a new object. But then, it must return that object to make it available to the calling code.
+
+> When we pass a mutable object like a list to a function, the function can change the object. In that case the function doesn't need to return the object to the calling code because it already has a varaible that refers to the object.
+
+
+### List of lists
+- A Python list of lists is a list in which the items are other lists.
+- Then, to access the item in the list of lists, we use two indexes.
+- A list of lists is also called as two-dimensional list (matrix), and we can think of the data as columns within rows.
