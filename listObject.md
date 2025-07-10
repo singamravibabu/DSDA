@@ -42,3 +42,24 @@ list_name[index]
 len(list)
 ```
 > Returns the number of items in the list.
+
+
+### Membership: 'in' keyword
+```
+item in list
+```
+> If the item is in the list it returns True; otherwise return False.
+
+
+### Looping through items in a list
+```
+for item in list:
+    statement(s)
+```
+
+> For each item you can run the statement(s).
+
+
+### Mutable and Immutable 
+> **Immutable types:** str, int, bool, float, tuple
+> **Mutable types:** list, dict, set
