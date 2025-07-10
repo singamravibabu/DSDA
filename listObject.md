@@ -30,4 +30,15 @@ list_name[index]
 > Removes the first item in the list that is equal to the specified item.
 > If item isn't found, this method raises a ValueError.
 
+4. index(item)
+> Returns the index of the first occurance of the specified item in the list.
+> If item isn't found, this method raises a ValueError.
 
+5. pop([index])
+> If no index argument is specified, this method get the last time from the list and removes it. Otherwise, this method gets the item specified at the index and removes it.
+
+### Built-in function
+```
+len(list)
+```
+> Returns the number of items in the list.
