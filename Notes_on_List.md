@@ -74,3 +74,49 @@ for item in list:
 - A Python list of lists is a list in which the items are other lists.
 - Then, to access the item in the list of lists, we use two indexes.
 - A list of lists is also called as two-dimensional list (matrix), and we can think of the data as columns within rows.
+
+
+### More methods on list
+1. count(item)
+- Returns the number of occurances of an item in a list.
+- If the item isn't found in the list, the method returns 0.
+
+2. reverse()
+- Reverse the order of items in a list.
+
+3. sort()
+```
+sort([key=function])
+```
+- Sorts the list items in place.
+- The optional `key` argument specifies a function to be called on each item before sorting.
+
+
+### Built-in functions
+1. sorted(list[, key=function])
+- Returns a new list consisting of the sorted items of the original list.
+- The optional `key` argument specifies a function to be called on each item before sorting.
+
+2. min(list)
+- Returns the minimum value in the list.
+
+3. max(list)
+- Returns the maximum value in the list.
+
+### Functions from random module
+1. choice(list)
+- Returns a randomly selected item from the list.
+
+2. shuffle(list)
+- Shuffles the items in the list on a random basis.
+
+
+### Copying lists
+- The assignment operator makes a shallow copy of a list, so both list variables refer to the same list.
+- In contrast, the `deepcopy()` function of the `copy()` module makes the deep copy of th list variables refer to the two different lists.
+
+
+### List Comprehension
+- We can generate list items using mostly loop inside a list.
+`[x for x in list]`
+
