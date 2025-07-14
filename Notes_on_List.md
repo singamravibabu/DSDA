@@ -120,3 +120,13 @@ sort([key=function])
 - We can generate list items using mostly loop inside a list.
 `[x for x in list]`
 
+
+### Slicing a list
+- We can slice a list to get a subset of the original list.
+```
+mylist[start:end:step]
+```
+
+
+### Concatenating a list
+- We can concatenate lists by using + operator or += operator.
