@@ -1,0 +1,6 @@
+print("{:20} {:>8} {:>15}".format("Item","Units","Price"))
+print("{:20} {:>8} {:>15}".format("----","-----","-----"))
+print("{:20} {:8} {:15,.2f}".format("Mobile",10,35000.0))
+print("{:20} {:8} {:15,.2f}".format("Wire",50,7500.0))
+print("{:20} {:8} {:15,.2f}".format("Book",100,70.0))
+print("{:20} {:8} {:15,.2f}".format("Power Supply Unit",3,19000.0))

@@ -51,7 +51,7 @@ open(file, mode)
         - If the file doesn't exist, this mode creates a new file.
         - If the file exists, this mode appends the data to the end of the file.
     4. b - Binary
-        - Use for the bnary files along with 'r' or 'w' mode.
+        - Use for the bnary files along with 'rb' or 'wb' mode.
     
 #### close() function
 - As told, every open file must be closed.
@@ -91,5 +91,42 @@ file_obj.write(string)
 - A comma-separated values (CSV) file stores tabular data in a text form.
 - Within this file, each lineis a row that ends with a new line character, and each row contains one or more columns are typically separated by commas.
 - Rows and columns can also be referred to as records and fields.
-- To work with CSV file in Python, we can use the `csv` module.
+- To work with CSV file in Python, we can use (import) the `csv` module.
+
+### Writing Data to a CSV file
+- To write data to a CSV file, we use the writer() function of the `csv` module to get writer object.
+
+#### The writer() function of the CSV module
+```
+writer(file)
+```
+- Returns a CSV writer object for the file.
+- The writer object converts the data into comma-seperated values
+- After using the writer object we use writerows() method of the writer object.
+
+#### The writerows() method of the CSV object
+- Write all specified rows to the file specified by the writer object using the CSV format specified by the writer object.
+
+**Note:** When we open a CSV file or reading or writing, we typically specified an argument name `newline` with a vale of an empty string. this enables universal newlines mode, so that reading and writing operations work correctly in all operating systems.
+
+### Reading Data from a CSV file
+- To read data from a CSV file, we use the reader() function of the `csv` module to create reader object. Then, we can use a `for` statement with reader object to read the data in the file.
+
+#### The reader() function of the CSV
+```
+reader(file)
+```
+- Returns a CSV reader object for the file.
+- The reader gets the data from the CSV file.
+
+
+## WORKING WITH BINARY FILES
+- We can use methods of the `pickle` module to work with binary files.
+- It can be used to dump (write) an object like a list to a file and to load (read) an object like a list from a binary file.
+
+### Two methods of the pickle module
+- dump(object, bfile)
+    - Writes the specified object to the binary file.
+- load(bfile)
+    - Reads the object from the binary file.
 
