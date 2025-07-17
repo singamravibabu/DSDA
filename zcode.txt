@@ -1,0 +1,10 @@
+Python
+Power BI
+SQL
+Pandas
+Visualization
+Tableau
+KNIME
+Django
+Flask
+Azure
