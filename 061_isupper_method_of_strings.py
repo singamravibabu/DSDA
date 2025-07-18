@@ -1,0 +1,12 @@
+print('hello'.isupper()) # False
+print('Hello'.isupper()) # False
+print('HELLO'.isupper()) # True
+print("HELLO123".isupper()) # True
+print("HELLO123---".isupper()) # True
+print("HELLo123---".isupper()) # False
+print('hello'.isupper())   # False
+print('Hello'.isupper()) # False
+print('HELLO'.isupper()) # True
+print("HELLO123".isupper()) # True
+print("HELLO123---".isupper())  # True
+print("HELLo123---".isupper()) # False

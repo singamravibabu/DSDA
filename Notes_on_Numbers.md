@@ -37,6 +37,12 @@ Syntax:
 
 
 ## The locale module
+## The currency() function
 
 
+## WORKING WITH DECIMAL NUMBERS
+- Use the `decimal` module to create decimal numbers that are exact when and don't yield unexpected results.
+- We use `Decimal` class from `decimal` module to create decimal numbers, and also we import rounding constants that we need from the decimal module.
+- To create a Decimal object that a stores a decimal number, pass a string for the decimal nubmer to the constructor ('Decimal(string)') of the Decimal class.
+- Its legal to code expressions mixing Decimal with int values. However, its illegal to code expressions that mix Decimal objects with float values.
 
