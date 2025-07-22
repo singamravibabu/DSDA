@@ -111,3 +111,11 @@ split([delimiter][, num])
 - By default, the delimiter is whitespace.
 - The second parameter specifies the number of occurances to replace.
 
+#### The join() method of the strings
+```
+str.join(seqence)
+```
+
+- We can use he join() method to join the elements in a sequence into a string.
+- This is more efficient that using + or += operators to concatenate the strings.
+

@@ -16,3 +16,8 @@ day = int(date[1])
 year = int(date[2])
 
 print(year, day, month)
+
+
+address = "Kiran Kumar|10-25 Malkajgiri|Hyderabad|Telangana|500047"
+address = address.split("|")
+print(address)
