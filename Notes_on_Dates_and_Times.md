@@ -95,3 +95,40 @@ datetime.strftime(format_str)
 
 
 ## WORKING WITH SPANS OF TIME
+- A `timedelta` object stores a span of time.
+- We can adjust a date or datetime object by adding or subtracting a timedelta object.
+- We can also get the span of time between two date/time objects by subtracting one from the other. The subtraction gives an objects that contains days, seconds, and microseconds.
+
+```
+timedelta([days][, seconds][, microseconds][, milliseconds][, minutes][, hours][, weeks])
+```
+
+
+#### 3 attributes and one method of a timedelta object
+1. days
+    Number of days
+2. seconds
+    Number of seconds in addition to days
+3. microseconds
+    Number of microseconds in addition to days and seconds
+4. total_seconds()
+    Total number of seconds and microseconds
+
+
+#### attributes that return the parts of date/time object
+- We can get various parts of a date/time object by accessing its attributes
+1. year
+    Returns year as a four-digit number
+2. month
+    Returns month as a two-digit number
+3. day
+    Returns day as a two-digit number
+4. hour
+    Returns hour as a two-digit number
+5. minute
+    Returns minute as a two-digit number
+6. second
+    Returns second as a two-digit number
+7. microsecond
+    Returns microsecond as a six-digit number
+
